@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install fastapi uvicorn pytz pytest httpx
-          
+
 
        - name: Set PYTHONPATH
         run: |
@@ -54,4 +54,5 @@ jobs:
       - name: Push image to Docker Hub
         run: |
           docker push ${{ secrets.DOCKER_USERNAME }}/simplatimeserva-api:latest
+
 
