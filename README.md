@@ -39,8 +39,14 @@ For this task, I used Docker hub as the staging environment. The actual staging 
 ### Set Up GitHub Repository
 
 I set up the github repository to store the files for this task and as well as run the github actions CICD workflow.
-Create an App 
 
+After that set up your github actions secrets to enable workflow login access to your docker hub repository
+
+![secrets](./images/secrets.png)
+
+
+
+### Create an App 
 
 I created a Simple fast API App using python and html code. The app is an API that displays date and time and links to notable events that happend on that date in history.
 
