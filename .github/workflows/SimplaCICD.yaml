@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install fastapi uvicorn pytz pytest
+          pip install fastapi uvicorn pytz pytest httpx
 
       - name: Run tests
         run: |
