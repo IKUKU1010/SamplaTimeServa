@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --no-cache-dir --retries 5 --timeout 100 -r requirements.txt
+          pip install fastapi uvicorn pytz pytest
 
       - name: Run tests
         run: |
