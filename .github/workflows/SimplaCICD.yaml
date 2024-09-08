@@ -25,11 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install fastapi uvicorn pytz pytest httpx
+          pip install fastapi uvicorn pytz pytest
+          pip3 install httpx
 
       - name: Run tests
         run: |
-          pytest tests/
+          python3 -m pytest tests/
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
