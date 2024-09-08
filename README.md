@@ -85,3 +85,12 @@ The code for the CI/CD workflow is stored on the .github/workflows directory on 
 
 1. Deploy: If the tests pass, the pipeline will deploy the app (in this case, by running it in a Docker container).
 
+The app was suucessfully tested, built and pushed to staging environment (Dockerhub) and CI is deployed as shown:
+
+![CI is deployed](./images/pipeline%20success.png)
+
+<br>
+<br>
+
+![pushed to staging](./images/pushed.png)
+

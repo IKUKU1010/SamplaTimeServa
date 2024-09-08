@@ -9,7 +9,7 @@ COPY ./backend /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir --upgrade pip && \
-    pip install fastapi uvicorn
+    pip install fastapi uvicorn pytz
 
 # Expose the default FastAPI port
 EXPOSE 8000
